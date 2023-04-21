@@ -1,9 +1,113 @@
+<!DOCTYPE html>
 <html>
- 
+<head>
+	<title>Star Wars Portfolio</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: 'Roboto', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		
+		.portfolio-item {
+			width: calc(50% - 20px);
+			margin-bottom: 40px;
+			position: relative;
+		}
+		
+		.portfolio-item img {
+			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		.portfolio-item:hover img {
+			transform: scale(1.1);
+		}
+		
+		.portfolio-item .caption {
+			background-color: rgba(255,255,255,0.8);
+			color: black;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			opacity: 0;
+			transition: all 0.3s ease-in-out;
+			padding: 20px;
+			text-align: center;
+			box-sizing: border-box;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+		.portfolio-item:hover .caption {
+			opacity: 1;
+		}
+		
+		.portfolio-item .caption p {
+			margin: 0;
+			font-size: 16px;
+			font-weight: normal;
+			margin-top: 10px;
+			text-transform: none;
+			line-height: 1.5;
+		}
+	</style>
+</head>
 <body>
-  <h1>CAMERON STOREY</h1>
-  <p>HELLO THERE!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about">
+			<div class="container">
+				<h1>About Me</h1>
+				<p>Hi, I'm [Your Name] and I'm a Star Wars enthusiast and a web developer. I love combining my passion for Star Wars with my skills in web development to create unique and engaging websites.</p>
+			</div>
+		</section>
+		
+		<section id="portfolio">
+			<div class="container">
+				<h1>My Portfolio</h1>
+				<div class="portfolio-item">
+					<img src="https://via.placeholder.com/400x300" alt="Portfolio Item 1">
+					<div class="caption">
+						<h2>Portfolio Item 1</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod sem vel ipsum aliquam, at placer
+   </section>
+  
 </html>
