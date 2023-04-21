@@ -1,3 +1,4 @@
+//UNIVERSAL//
 body {
 	background-color: #334d4d;
 	color: white;	
@@ -5,7 +6,36 @@ body {
 	margin: 0;
 	padding: 0;
 }
-		
+
+//NAV//
+nav {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+		}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav ul li {
+	margin: 0 10px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+//CONTAINER//
 .container {
 	max-width: 800px;
 	margin: 0 auto;
@@ -25,7 +55,8 @@ h1 {
   	border: solid black;
   	border-radius: 6px;
 }
-		
+	
+//PORTFOLIO//
 .portfolio-item {
 	width: calc(50% - 20px);
 	margin-bottom: 40px;
