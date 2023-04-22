@@ -7,7 +7,7 @@ body {
 	padding: 0;
 }
 
-/*NAV
+/*NAV*/
 nav {
 	background-color: black;
 	position: fixed;
@@ -33,7 +33,7 @@ nav ul li a {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 18px;
-} */
+}
 
 /*CONTAINER*/
 .container {
@@ -70,9 +70,9 @@ h1 {
 	transition: all 0.3s ease-in-out;
 }
 		
-.portfolio-item:hover img {
+/*.portfolio-item:hover img {
 	transform: scale(1.1);
-}
+}*/
 		
 .portfolio-item .caption {
 	background-color: rgba(255,255,255,0.8);
