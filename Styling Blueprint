@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+  </head>
+  <body>
+    <h1>My Website Style Guide</h1>
+    <div class="container">
+      <h2>Colors</h2>
+      <div class="color-container">
+        <div class="color-panel cool-blue">
+          <p class="color-label">Cool Blue</p>
+          <p class="color-hex">#2d5dcc</p>
+        </div>
+        <div class="color-panel sky-blue">
+          <p class="color-label" >Sky Blue</p>
+          <p class="color-hex">#70c2c2</p>
+        </div>
+        <div class="color-panel dark-blue">
+          <p class="color-label" >Dark Blue</p>
+          <p class="color-hex">#000066</p>
+        </div>
+        <div class="color-panel steel-blue">
+          <p class="color-label" >Steel Blue</p>
+          <p class="color-hex">#334d4d</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Fonts</h2>
+      <div class="font-container">
+        <div class="font-panel">
+          <p class="font-label audiowide">Audiowide</p>
+          <p class="regular audiowide">When i type, this is what it looks like.</p>
+          <p class="bold audiowide">When i type, this is what it looks like.</p>
+          <p class="italic audiowide">When i type, this is what it looks like.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label aldrich">Aldrich</p>
+          <p class="regular aldrich">When i type, this is what it looks like.</p>
+          <p class="bold aldrich">When i type, this is what it looks like.</p>
+          <p class="italic aldrich">When i type, this is what it looks like.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label advent pro">Advent Pro</p>
+          <p class="regular advent pro">When i type, this is what it looks like.</p>
+          <p class="bold advent pro">When i type, this is what it looks like.</p>
+          <p class="italic advent pro">When i type, this is what it looks like.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Audiowide</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Aldrich</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 600</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Advent Pro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
