@@ -1,0 +1,28 @@
+CSS
+
+
+body {
+  background-color: lightgreen;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: blue;
+}
+
+table {
+  border: solid;
+}
+
+tr {
+  border: solid;
+}
+
+td {
+  border: solid;
+  padding: 0.5em;
+}
