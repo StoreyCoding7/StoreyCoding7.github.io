@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;  
+    opacity: 0.8;
+    text-align: center; 
+    margin: auto 0;   
+}
+
+/* Navigation Bar */
+header {  
+    position: fixed; 
+    text-decoration: underline; 
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black; 
+    height: 69px;
+   } 
+   
+
+img.logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+} 
+
+nav {
+    display: flex;
+    background-color: black; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    text-decoration: underline; 
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+} 
+
+ul {  
+   height: 69px;
+   padding-right: 10px;
+   display: flex;
+}
+
+li {
+    text-decoration: underline;
+    height: 69px;
+    padding-right: 20px;
+    display: inline-flex;    
+} 
+
+a {
+    color: seashell;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a, .sections:hover {
+    color: #c9c9c9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sections:visited {
+    color: #c9c9c9;
+}
+    
+img.mission-img {
+    height: 700px;
+    width: 1200px;
+    position: static;
+}
+
+
+/* Mission */
+
+#mission {
+    background-color: black;
+    position: relative;
+    bottom: 375px;
+    margin: 0 auto;  
+    width: 1200px;
+    height: 50px;
+    padding-top: 10px;    
+}
+
+h4.description {
+    background-color: black;
+    position: relative;
+    bottom: 375px;
+    margin: 0 auto;  
+    width: 1200px;
+    height: 50px;
+    padding-top: 10px;  
+}
+
+
+/* Tea of the Month */
+#totm {
+   display: inline-block;
+   position: relative;
+}
+
+div.teas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#month {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;  
+}
+
+h4.steeping {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;  
+}
+
+ img.fall-berry-img, img.spiced-rum-img, img.seasonal-donuts-img, img.myrtle-ave-img, img.bedford-bizarre-img {
+    max-height: 200px;
+    max-width: 300px;
+    display: flex;      
+}
+
+fall-berry-img {
+   height: 200px;
+   width: 300px;
+}
+
+h4.fall-berry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+h4.fall-berry, h4.spiced-rum, h4.seasonal-donuts, h4.myrtle-ave, h4.bedford-bizarre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;      
+}
+
+.teas1 figure {
+    display: inline-block;
+}
+
+.teas2 figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+/* Locations */
+
+#locations {
+    position: relative;
+    top: 100px;
+    padding-top: 30px;
+}
+
+
+img.locations-background {
+    height: 800px;
+    width: 1200px;
+    position: static;  
+}
+
+ div.locations-sect {
+    display: flex;
+    justify-content: center; 
+ }
+
+div.downtown, div.east-bayside, div.oakdale {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    position: relative;
+    bottom: 710px;
+    display: flex;
+    flex-direction: column; 
+}
+
+div.downtown {
+    padding-right: 40px;
+    display: inline-flex;
+}
+
+div.east-bayside {
+    padding-right: 40px;
+    display: inline-flex;
+}
+
+div.oakdale {
+    padding-right: 40px;
+    display: inline-flex;
+}
+
+ /* Footer */
+
+div.contact-info {
+    text-align: center;
+    max-height: 200px;
+    
+}
+
+h5.copyright {
+    text-align: left; 
+    padding-left: 20px;
+}
