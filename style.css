@@ -1,6 +1,6 @@
 /*UNIVERSAL*/
 body {
-  	background-image: url("data:image/jpeg;base64,/9j…Oig8y7PkPoK6fhf0+dFFB//2Q==");
+  	background-image: url("/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F19827.jpg&tbnid=…background&safe=active&ved=2ahUKEwiU7fCgr9v-AhX4mycCHdnXBjUQMygKegUIARD_AQ");
   	height: 100%;
   	background-attachment: fixed;
   	background-size: cover;
@@ -9,7 +9,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 /*NAV*/
 nav {
 	background-color: black;
