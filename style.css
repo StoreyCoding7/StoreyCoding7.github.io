@@ -1,8 +1,8 @@
 /*UNIVERSAL*/
 body {
-  	background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  	background-image: url("https://8c7ec877f577462db226c747f9aabc88.cc-propeller.cloud/img/space.jpg");
   	height: 100%;
-  	background-attachment: scroll;
+  	background-attachment: fixed;
   	background-size: cover;
 	color: white;	
 	font-family: 'Aldrich';
@@ -54,7 +54,7 @@ nav ul li a {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	opacity: 0.9;
+	opacity: 0.95;
 
 }
 		
@@ -63,11 +63,11 @@ h1 {
 	margin-bottom: 20px;
 	text-align: center;
 	text-transform: uppercase;
-	background-color: #334d4d;
+	background-color: none;
   	border: solid black;
   	border-radius: 6px;
 	padding: 10px;
-	opacity: 0.9;
+	opacity: 0.95;
 }
 	
 
