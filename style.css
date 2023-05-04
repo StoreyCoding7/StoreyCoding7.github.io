@@ -1,4 +1,5 @@
 /*UNIVERSAL*/
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
 body {
   	background-image: url("https://w0.peakpx.com/wallpaper/982/735/HD-wallpaper-glare-stars-space-black-sky-background-space.jpg");
   	height: 100%;
@@ -8,6 +9,7 @@ body {
 	font-family: 'Aldrich';
 	margin: 0;
 	padding: 0;
+	}
 }
 /*NAV*/
 nav {
