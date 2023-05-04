@@ -4,7 +4,7 @@ body {
   	height: 100%;
   	background-attachment: fixed;
   	background-size: cover;
-	color: white;	
+	color: ghost-white;	
 	font-family: 'Aldrich';
 	margin: 0;
 	padding: 0;
@@ -38,7 +38,7 @@ nav ul li a {
 	font-size: 18px;
 }
 .title {
-	border: hidden;
+	border: wrap;
 	opacity: 0.9;
 	align-items: center;
 }
