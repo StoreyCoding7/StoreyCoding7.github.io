@@ -1,6 +1,6 @@
 /*UNIVERSAL*/
 body {
-  	background-image: url("../img/space.jpg");
+  	background-image: url("data:image/jpeg;base64,/9j…Oig8y7PkPoK6fhf0+dFFB//2Q==");
   	height: 100%;
   	background-attachment: fixed;
   	background-size: cover;
@@ -9,7 +9,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 
 /*NAV*/
 nav {
@@ -38,7 +37,9 @@ nav ul li a {
 	text-transform: uppercase;
 	font-size: 18px;
 }
-
+.title {
+	border: hidden;
+}
 
 
 
