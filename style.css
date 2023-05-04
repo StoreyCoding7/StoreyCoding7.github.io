@@ -1,12 +1,14 @@
 /*UNIVERSAL*/
 body {
-	background-color: #334d4d;
+  	background-image: url("../img/space.jpg");
+  	height: 100%;
+  	background-attachment: fixed;
+  	background-size: cover;
 	color: white;	
 	font-family: 'Aldrich';
 	margin: 0;
 	padding: 0;
 }
-
 
 
 /*NAV*/
