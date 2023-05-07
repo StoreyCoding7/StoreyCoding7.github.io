@@ -1,0 +1,167 @@
+#logo{
+  width: 10%;
+  align-items: left;
+}
+nav {
+  // background-color: orange;
+  // opacity: 90%;
+  // color: white;
+}
+nav ul {
+  // border: solid red;
+  // background-color: red;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+nav ul li {
+  background-color: darkorange;
+  border: red;
+  border: solid darkorange;
+  border-radius: 2px;
+  padding: 4px;
+}
+nav ul li a{
+  color: white;
+  padding: 4px;
+}
+
+
+
+
+body {
+  background-color: orange;
+  color: white;
+}
+main {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+h1 { 
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  // padding: 10px;
+  // background-color: darkorange;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: auto;
+}
+h2 {
+  text-align: center;
+  color: red;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+h3 {
+}
+
+
+
+
+div.title {
+  background-color: orange;
+  display: fixed;
+  height: 400px;
+  width: auto;
+  min-width: 100px:
+  object-fit: cover;
+  padding-bottom: 120px;
+  padding-right: 10px;
+  padding-left: 5px;
+  max-height: 100%;
+  min-height: fit;
+}
+#img-back {
+  height: auto;
+  width: 100%;
+  border: solid red;
+  border-radius: 5px;
+  max-height: 100%;
+  min-height: fit;
+  // max-width: 800px;
+  display: center;
+}
+
+
+
+
+div.about-us {
+  padding: 30px;
+}
+div.content {
+  display: inline-block;
+}
+
+
+
+
+div.products {
+  padding: 30px;
+}
+div.products .item {
+  width: 40%;
+}
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12, #item13, #item14 {
+  width: 40%;
+}
+div.ultimate-collectors-edition, div.dioramas, div.figures, div.battle-packs {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
+
+
+
+
+div.team {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
+div.team-mate {
+  flex-wrap: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pp {
+  width: 30%;
+  padding: 10px;
+}
+
+
+
+
+div.contact {
+  padding: 10px;
+  font-size: 13px;
+  background-color: black;
+}
+#find-us {
+  font-size: 20px;
+  text-align: left;
+  color: red;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+
+div.copyright {
+  background-color: black;
+  text-align: center;
+  font-size: 0.7em;
+  padding: 10px;
+}
