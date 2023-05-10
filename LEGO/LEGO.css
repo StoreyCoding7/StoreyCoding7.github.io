@@ -67,20 +67,20 @@ h3 {
 
 
 // div.title {
-  background-color: orange;
-  display: fixed;
-  height: 100px;
-  width: auto;
-  // min-width: 50px:
-  object-fit: cover;
-  // padding-bottom: 120px;
-  // padding-right: 10px;
-  // padding-left: 5px;
-  max-height: 100%;
-  min-height: 100px;
-  margin-top: 0;
-  margin-left: 15em;
-  margin-right: 15em;
+  // background-color: orange;
+  // display: fixed;
+  // height: 100px;
+  // width: auto;
+  // // min-width: 50px:
+  // object-fit: cover;
+  // // padding-bottom: 120px;
+  // // padding-right: 10px;
+  // // padding-left: 5px;
+  // max-height: 100%;
+  // min-height: 100px;
+  // margin-top: 0;
+  // margin-left: 15em;
+  // margin-right: 15em;
 }
 div.title-img {
   display: flex;
