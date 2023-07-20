@@ -12,11 +12,12 @@ body {
 /*NAV*/
 nav {
 	background-color: black;
+	display: inline-block;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999;
+	height: 10px;
 }
 nav ul {
 	list-style: none;
@@ -37,6 +38,7 @@ nav ul li a {
 	font-size: 18px;
 }
 .title {
+	padding-top: 20px;
 	border: wrap;
 	opacity: 0.9;
 	align-items: center;
