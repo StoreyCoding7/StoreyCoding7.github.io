@@ -1,0 +1,28 @@
+body {
+    background-color: darkslateblue;
+}
+
+#container {
+    background-color: blanchedalmond;
+    border: 5px solid rgb(193, 197, 94);
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn {
+    margin: 50px auto;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(183, 137, 226);
+}
+
+#output {
+    margin: 25px auto;
+    color: rgb(52, 113, 166);
+    font-size: 26px;
+}
