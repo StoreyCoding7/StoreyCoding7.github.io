@@ -1,10 +1,19 @@
-.App {
+.Page {
   text-align: center;
+  background-image: url("https://www.emsopedia.org/wp-content/uploads/2021/02/Swept-Jamming-against-Radio-Communications.jpg");
+  background-size: cover;
+  backgr
+}
+
+.App {
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  padding: 3em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +22,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-Playlist {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,10 +33,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#title {
+  padding-bottom: vh;
+  color: hsl(193, 100%, 50%);
+  text-shadow: 1vh 1.5vh #fdfbfb;
+  font-family: 'Rubik Burned', system-ui;
+  font-size: 3em;
+}
+
+#save {
+  /* padding-bottom: 2vh; */
 }

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './Jam.png';
 import './App.css';
+import { SearchBar } from '../SearchBar/SearchBar';
+import { SearchResults } from '../SearchResults/SearchResults';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='Page'>
+      <div className="App">
+          <h1 id="title">JAMMMING!</h1>
+          <SearchBar />
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>Welcome to my Jammming app!</p>
+      </div>
+      
+      <div className="App-Playlist">
+          <SearchResults />
+      </div>
+        {/* <body>
+          <button id="save">Save To Spotify</button>
+        </body> */}
     </div>
   );
 }
