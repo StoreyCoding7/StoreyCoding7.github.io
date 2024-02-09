@@ -1,18 +1,18 @@
 import React from "react";
-import { TrackList } from "../TrackList/TrackList";
-import '../SearchResults/SearchResults.css';
+import styles from "./SearchResults.module.css";
+import Tracklist from "../Tracklist/Tracklist";
 
-export class SearchResults extends React.Component {
-    render () {
-        return (
-            <div className="SearchResults">
-            <h2>Results</h2>
-            {/* add a tracklist component */}
-            <TrackList 
-            tracks={this.props.searchResults}
-            onAdd={this.props.onAdd}
-            isRemoval={false}/>
-        </div>
-    );
-};
+function SearchResults(props) {
+  return (
+    <div className={styles.SearchResults}>
+      {/* <!-- Add a Tracklist component --> */}
+      <Tracklist
+        userSearchResults={props.userSearchResults}
+        isRemoval={false}
+        onAdd={props.onAdd}
+      />
+    </div>
+  );
 }
+
+export default SearchResults;
