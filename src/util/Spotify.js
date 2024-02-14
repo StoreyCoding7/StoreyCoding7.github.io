@@ -1,6 +1,7 @@
 let accessToken;
 const clientID = "12b10024f13746239adcf7cb1616d39f";
-const redirectUrl = "http://localhost:3000";
+// const redirectUrl = "http://localhost:3000";
+const redirectUrl = "https://storeyjammmingproject.surge.sh";
 
 const Spotify = {
     getAccessToken() {
@@ -35,8 +36,8 @@ search(term) {
     })
       .then((response) => response.json())
       .then((jsonResponse) => {
-        if (!jsonResponse) {
-          console.error("Response error");
+        if (!jsonResponse.tracks) {
+          return [];
         }
             console.log(accessToken);
         return jsonResponse.tracks.items.map((t) => ({
@@ -45,7 +46,12 @@ search(term) {
           artist: t.artists[0].name,
           album: t.album.name,
           uri: t.uri,
+          preview_url: t.preview_url
         }));
+      })
+      .catch(error => {
+        console.error("Error searching for tracks:", error);
+        return [];
       });
   },
 

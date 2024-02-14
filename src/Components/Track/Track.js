@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Track.module.css";
 
 function Track(props) {
+  const [isPlaying, setIsPlaying] = useState(false);
+
   function renderAction() {
     if (props.isRemoval) {
       return (
@@ -25,18 +27,25 @@ function Track(props) {
   function passTrackToRemove() {
     props.onRemove(props.track);
   }
+
+  function playPreview() {
+    setIsPlaying(true);
+    setTimeout(() => setIsPlaying(false), 5000); // Stop playing after 5 seconds
+  }
+
   return (
     <div className={styles.Track}>
       <div className={styles["Track-information"]}>
-        {/* <h3><!-- track name will go here --></h3> */}
         <h3>{props.track.name}</h3>
-        {/* <p><!-- track artist will go here--> | <!-- track album will go here --></p> */}
+        <button onClick={playPreview}>Play Preview</button>
         <p>
           {props.track.artist} | {props.track.album}
         </p>
       </div>
-      {/* <button class="Track-action"><!-- + or - will go here --></button> */}
       {renderAction()}
+      {isPlaying && (
+        <audio controls autoPlay src={props.track.preview_url} />
+      )}
     </div>
   );
 }
